@@ -2,7 +2,7 @@
 //  iOS_Kicks_Detection_DemoUITests.swift
 //  iOS-Kicks-Detection-DemoUITests
 //
-//  Created by 鈴木航 on 2017/06/19.
+//  Created by WataruSuzuki on 2017/06/19.
 //  Copyright © 2017年 WataruSuzuki. All rights reserved.
 //
 
