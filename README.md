@@ -1,1 +1,1 @@
-# iOS-Kicks-Detection-Demo
+# My-Kicks-History-iOS
