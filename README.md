@@ -1,1 +1,1 @@
-# HakiMono
+# KixFeed-iOS
