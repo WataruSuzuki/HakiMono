@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D50A27C1682FDDE66912BC7 /* Pods_MonetizeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E0AE3DBB2B910148889C4F /* Pods_MonetizeKit.framework */; };
+		73E618A3BA7D5A6D2C638019 /* Pods_KixFeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2348EBE03FD3823C3CE37A2D /* Pods_KixFeedTests.framework */; };
 		963095E82250B8F400B1790E /* MonetizeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963095DF2250B8F300B1790E /* MonetizeKit.framework */; };
 		963095EF2250B8F400B1790E /* MonetizeKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963095EE2250B8F400B1790E /* MonetizeKitTests.swift */; };
 		963095F12250B8F400B1790E /* MonetizeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 963095E12250B8F300B1790E /* MonetizeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,6 +22,9 @@
 		964BABDA2250B0B7008FC892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964BABD82250B0B7008FC892 /* LaunchScreen.storyboard */; };
 		964BABE52250B0B7008FC892 /* KixFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964BABE42250B0B7008FC892 /* KixFeedTests.swift */; };
 		964BABF02250B0B7008FC892 /* KixFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964BABEF2250B0B7008FC892 /* KixFeedUITests.swift */; };
+		96FBA4742250BAF50075B91A /* MonetizeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBA4732250BAF50075B91A /* MonetizeService.swift */; };
+		C0CA28443B07E12BF93B8D51 /* Pods_MonetizeKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF51F6C73D58302928DB848 /* Pods_MonetizeKitTests.framework */; };
+		D8AC14BEE82AAA60B014A4BB /* Pods_KixFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919ECBC531DC790E9A80F7C6 /* Pods_KixFeed.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +80,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		11207C831EFB0C3779B8FCBD /* Pods-MonetizeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonetizeKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonetizeKit/Pods-MonetizeKit.debug.xcconfig"; sourceTree = "<group>"; };
+		2348EBE03FD3823C3CE37A2D /* Pods_KixFeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KixFeedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B0B1FFD277EC8BEF095BE4 /* Pods-KixFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KixFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KixFeed/Pods-KixFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		2A31E7686F4361E061840646 /* Pods-KixFeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KixFeedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KixFeedTests/Pods-KixFeedTests.release.xcconfig"; sourceTree = "<group>"; };
+		2FF51F6C73D58302928DB848 /* Pods_MonetizeKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonetizeKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD5D405328EA908AE5DAA66 /* Pods-MonetizeKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonetizeKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonetizeKitTests/Pods-MonetizeKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		4BC4EA020C6FB839A88A1E8D /* Pods-MonetizeKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonetizeKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MonetizeKitTests/Pods-MonetizeKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8504ACC2C0CD55A6F7563231 /* Pods-KixFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KixFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-KixFeed/Pods-KixFeed.release.xcconfig"; sourceTree = "<group>"; };
+		919ECBC531DC790E9A80F7C6 /* Pods_KixFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KixFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		963095DF2250B8F300B1790E /* MonetizeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MonetizeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		963095E12250B8F300B1790E /* MonetizeKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonetizeKit.h; sourceTree = "<group>"; };
 		963095E22250B8F300B1790E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +109,10 @@
 		964BABEB2250B0B7008FC892 /* KixFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KixFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		964BABEF2250B0B7008FC892 /* KixFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KixFeedUITests.swift; sourceTree = "<group>"; };
 		964BABF12250B0B7008FC892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FBA4732250BAF50075B91A /* MonetizeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonetizeService.swift; sourceTree = "<group>"; };
+		A7E0AE3DBB2B910148889C4F /* Pods_MonetizeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonetizeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3665CE3555B0A27D01F1544 /* Pods-MonetizeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonetizeKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-MonetizeKit/Pods-MonetizeKit.release.xcconfig"; sourceTree = "<group>"; };
+		D733AE472EA919C5D9769648 /* Pods-KixFeedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KixFeedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KixFeedTests/Pods-KixFeedTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D50A27C1682FDDE66912BC7 /* Pods_MonetizeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				963095E82250B8F400B1790E /* MonetizeKit.framework in Frameworks */,
+				C0CA28443B07E12BF93B8D51 /* Pods_MonetizeKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				963095F42250B8F400B1790E /* MonetizeKit.framework in Frameworks */,
+				D8AC14BEE82AAA60B014A4BB /* Pods_KixFeed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E618A3BA7D5A6D2C638019 /* Pods_KixFeedTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,11 +160,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69C0B77EB7317F4AF8225536 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				919ECBC531DC790E9A80F7C6 /* Pods_KixFeed.framework */,
+				2348EBE03FD3823C3CE37A2D /* Pods_KixFeedTests.framework */,
+				A7E0AE3DBB2B910148889C4F /* Pods_MonetizeKit.framework */,
+				2FF51F6C73D58302928DB848 /* Pods_MonetizeKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		963095E02250B8F300B1790E /* MonetizeKit */ = {
 			isa = PBXGroup;
 			children = (
 				963095E12250B8F300B1790E /* MonetizeKit.h */,
 				963095E22250B8F300B1790E /* Info.plist */,
+				96FBA4732250BAF50075B91A /* MonetizeService.swift */,
 			);
 			path = MonetizeKit;
 			sourceTree = "<group>";
@@ -165,6 +199,8 @@
 				963095E02250B8F300B1790E /* MonetizeKit */,
 				963095ED2250B8F400B1790E /* MonetizeKitTests */,
 				964BABCB2250B0B6008FC892 /* Products */,
+				A501FECDA4F8EBCBD71273AE /* Pods */,
+				69C0B77EB7317F4AF8225536 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +248,21 @@
 			path = KixFeedUITests;
 			sourceTree = "<group>";
 		};
+		A501FECDA4F8EBCBD71273AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26B0B1FFD277EC8BEF095BE4 /* Pods-KixFeed.debug.xcconfig */,
+				8504ACC2C0CD55A6F7563231 /* Pods-KixFeed.release.xcconfig */,
+				D733AE472EA919C5D9769648 /* Pods-KixFeedTests.debug.xcconfig */,
+				2A31E7686F4361E061840646 /* Pods-KixFeedTests.release.xcconfig */,
+				11207C831EFB0C3779B8FCBD /* Pods-MonetizeKit.debug.xcconfig */,
+				C3665CE3555B0A27D01F1544 /* Pods-MonetizeKit.release.xcconfig */,
+				4BC4EA020C6FB839A88A1E8D /* Pods-MonetizeKitTests.debug.xcconfig */,
+				4AD5D405328EA908AE5DAA66 /* Pods-MonetizeKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -230,10 +281,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 963095FA2250B8F400B1790E /* Build configuration list for PBXNativeTarget "MonetizeKit" */;
 			buildPhases = (
+				907190A4A7F338AA368140C2 /* [CP] Check Pods Manifest.lock */,
 				963095DA2250B8F300B1790E /* Headers */,
 				963095DB2250B8F300B1790E /* Sources */,
 				963095DC2250B8F300B1790E /* Frameworks */,
 				963095DD2250B8F300B1790E /* Resources */,
+				043EFFF18189CB1B8067285B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,9 +301,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 963095FC2250B8F400B1790E /* Build configuration list for PBXNativeTarget "MonetizeKitTests" */;
 			buildPhases = (
+				2D981000D229BAB4296D2381 /* [CP] Check Pods Manifest.lock */,
 				963095E32250B8F400B1790E /* Sources */,
 				963095E42250B8F400B1790E /* Frameworks */,
 				963095E52250B8F400B1790E /* Resources */,
+				B921FF171BE5B9F5F35CFFC4 /* [CP] Embed Pods Frameworks */,
+				509FB74A9C2E15AF1E1DACFB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,10 +323,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 964BABF42250B0B7008FC892 /* Build configuration list for PBXNativeTarget "KixFeed" */;
 			buildPhases = (
+				DF981BF8E42958D4BDB2B84B /* [CP] Check Pods Manifest.lock */,
 				964BABC62250B0B6008FC892 /* Sources */,
 				964BABC72250B0B6008FC892 /* Frameworks */,
 				964BABC82250B0B6008FC892 /* Resources */,
 				963095FB2250B8F400B1790E /* Embed Frameworks */,
+				F73A0B08C2CB726406A0EA4C /* [CP] Embed Pods Frameworks */,
+				FE68CB9EA5BDD60988C69CF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -286,6 +345,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 964BABF72250B0B7008FC892 /* Build configuration list for PBXNativeTarget "KixFeedTests" */;
 			buildPhases = (
+				E2D79A5143E517EF06A3B70A /* [CP] Check Pods Manifest.lock */,
 				964BABDC2250B0B7008FC892 /* Sources */,
 				964BABDD2250B0B7008FC892 /* Frameworks */,
 				964BABDE2250B0B7008FC892 /* Resources */,
@@ -330,6 +390,7 @@
 				TargetAttributes = {
 					963095DE2250B8F300B1790E = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					963095E62250B8F400B1790E = {
 						CreatedOnToolsVersion = 10.2;
@@ -411,11 +472,241 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		043EFFF18189CB1B8067285B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MonetizeKit/Pods-MonetizeKit-resources.sh",
+				"${PODS_ROOT}/NendSDK_iOS/NendAd.embeddedframework/NendAd.framework/Resources/NendAdResource.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NendAdResource.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonetizeKit/Pods-MonetizeKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D981000D229BAB4296D2381 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonetizeKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		509FB74A9C2E15AF1E1DACFB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MonetizeKitTests/Pods-MonetizeKitTests-resources.sh",
+				"${PODS_ROOT}/NendSDK_iOS/NendAd.embeddedframework/NendAd.framework/Resources/NendAdResource.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NendAdResource.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonetizeKitTests/Pods-MonetizeKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		907190A4A7F338AA368140C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonetizeKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B921FF171BE5B9F5F35CFFC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MonetizeKitTests/Pods-MonetizeKitTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PersonalizedAdConsent/PersonalizedAdConsent.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PersonalizedAdConsent.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MonetizeKitTests/Pods-MonetizeKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF981BF8E42958D4BDB2B84B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KixFeed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2D79A5143E517EF06A3B70A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KixFeedTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F73A0B08C2CB726406A0EA4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KixFeed/Pods-KixFeed-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FloatingPanel/FloatingPanel.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SimpleKeychain/SimpleKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PersonalizedAdConsent/PersonalizedAdConsent.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FloatingPanel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PersonalizedAdConsent.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KixFeed/Pods-KixFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE68CB9EA5BDD60988C69CF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KixFeed/Pods-KixFeed-resources.sh",
+				"${PODS_ROOT}/NendSDK_iOS/NendAd.embeddedframework/NendAd.framework/Resources/NendAdResource.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NendAdResource.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KixFeed/Pods-KixFeed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		963095DB2250B8F300B1790E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96FBA4742250BAF50075B91A /* MonetizeService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,7 +796,9 @@
 /* Begin XCBuildConfiguration section */
 		963095F62250B8F400B1790E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11207C831EFB0C3779B8FCBD /* Pods-MonetizeKit.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -516,7 +809,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MonetizeKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -525,6 +818,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.JchanKchan.MonetizeKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -534,7 +828,9 @@
 		};
 		963095F72250B8F400B1790E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3665CE3555B0A27D01F1544 /* Pods-MonetizeKit.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -545,7 +841,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = MonetizeKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -563,6 +859,7 @@
 		};
 		963095F82250B8F400B1790E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC4EA020C6FB839A88A1E8D /* Pods-MonetizeKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -584,6 +881,7 @@
 		};
 		963095F92250B8F400B1790E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD5D405328EA908AE5DAA66 /* Pods-MonetizeKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -721,7 +1019,9 @@
 		};
 		964BABF52250B0B7008FC892 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B0B1FFD277EC8BEF095BE4 /* Pods-KixFeed.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F35G39V2UB;
@@ -739,7 +1039,9 @@
 		};
 		964BABF62250B0B7008FC892 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8504ACC2C0CD55A6F7563231 /* Pods-KixFeed.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F35G39V2UB;
@@ -757,6 +1059,7 @@
 		};
 		964BABF82250B0B7008FC892 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D733AE472EA919C5D9769648 /* Pods-KixFeedTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -778,6 +1081,7 @@
 		};
 		964BABF92250B0B7008FC892 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A31E7686F4361E061840646 /* Pods-KixFeedTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
